@@ -52,11 +52,15 @@ int main(void)
 	}
 
 	/*	
-	 *	A testing example to demonstrate the program
+	 *	Print the array
 	 */
-	printf("There are %d words with %d letters in the sentence.\n",
-	array[2], 2);
+	printf("Length | Words\n");
+	printf("--------------\n");
 
+	for (i = 0; i < 10; i++)
+	{
+		printf("  %d    |  %d  \n", i, array[i]);
+	}
 
 	return 0;
 }
